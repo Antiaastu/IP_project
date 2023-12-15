@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #B0E0E6;
+    color: #fff;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color:#151615;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  .user-actions button {
+    margin-left: 10px;
+    background-color: #001aff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .search-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow:  4px 8px rgba(0, 0, 0, 0.1);
+    border: 0.3px;
+  }
+  
+  .search-bar button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .main-image {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .main-image img {
+    max-width: 30%;
+    height: auto;
+    opacity: 0.5;
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .image-text h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .trending-items {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: #151615;
+  }
+  
+  .item {
+    position: relative;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .item img {
+    height:100px;
+    width: 100px;
+    object-fit: cover;
+    
+  }
+  
+  .details-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .sell-section {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #456e43;
+    color: #d4eb08;
+  }
+  
+  .sell-section button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  /* Footer Styling */
+footer {
+  background-color: #4e3575;
+  color: #fff;
+  padding: 20px;
+  margin: 5px;
+}
+
+/* Contact Us Section */
+.contact-us {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Social Media Icons */
+.social-media {
+  text-align: center;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+.social-media img {
+  width: 50px;
+}
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.comment-section label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.comment-section textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.comment-section button {
+  background-color: #fff;
+  color: #0907ac;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.comment-section button:hover {
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}
