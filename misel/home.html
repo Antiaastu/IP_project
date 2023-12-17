@@ -1,84 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>ምስል Market</title>
-        <link rel="icon" href="logo.jpg" type="image/jpg"/>
-    </head>
-    <body>
-        
-        <header>
-            <table width="100%">
-                <tr>
-                    <td width="5%"></td>
-
-                    <td>
-                      <a href="home.html"><img src="logo.jpg" alt="logo of the website" height="40"/></a>
-                    </td>
-                        <td align="left">
-                             <a href="shop.html">| <b>shop</b> |</a>
-                            <input type="text" placeholder="type...">
-                            <button type="submit">Search</button>
-                        </td>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ምስል Market</title>
+    <link rel="icon" href="logo.jpg" type="image/jpg"/>
+</head>
+<body>
+    <header>
+        <table width="100%">
+            <tr>
+                <td width="5%"></td>
+                <td>
+                    <a href="home.html"><img src="logo.jpg" alt="logo of the website" height="40"/></a>
+                </td>
+                <td align="left">
+                    <a href="shop.html">| <b>shop</b> |</a>
+                    <input type="text" placeholder="type...">
+                    <button type="submit">Search</button>
+                </td>
                 <nav>
                     <td align="justify">
-                            <b>
-                        <a href="home.html">Home|</a>
-                        <a href="artists.html">Artists|</a>
-                        <a href="about.html">About|</a>
-                        <a href="#">Contact|</a>
-                            </b>
+                        <b>
+                            <a href="home.html">Home|</a>
+                            <a href="artists.html">Artists|</a>
+                            <a href="about.html">About|</a>
+                            <a href="contact.html">Contact|</a>
+                        </b>
                     </td> 
-                
-                         <td align="right">
-                           <button><a href="login.html"><b>Log In</b></a></button>
-                            <button><a href="signup.html"><b>Sign Up</b></a></button>   
-                         </td>  
+                    <td align="right">
+                        <button><a href="login.html"><b>Sign-In</b></a></button>
+                        <button><a href="signup.html"><b>Sign Up</b></a></button>   
+                    </td>
                 </nav>
             </tr>
-            </table>    
-        </header>
-                <hr>
-        
-      <main>
+        </table>    
+    </header>
+    <hr>
+    <main>
         <table width="100%">
-          
-          <tr>
-             <td width="5%" valign="top" align="middle">
-                <a href="home.html"><img src="home.png" height="30"></a>
-             </td>  
-                
-           <td class="separator" width="1" bgcolor="black"width="1"></td><!-- Vertical line used to separate sidebar with menubar-->
-           <td width="2%"></td> 
-              <td>
-                <h3>Home</h3><br>
-              <section class="hello">
-                  <button><a href="home.html"><b>Foryou</b></a></button>
-                  <button><a href="paint.html"><b>Paintings</b></a></button>
-                  <button><a href="sketch.html"><b>Sketches</b></a></button>
-                  <button><a href="AI.html"><b>AI Art</b></a></button>
-                  <button><a href="photo.html"><b>Photography</b></a></button>
-                  <button><a href="digital.html"><b>Digital Art</b></a></button>
-                  <button><a href="fan.html"><b>Fan Art</b></a></button>
-                <h2>Welcome to ArtConnect</h2>
-                <p>Discover and purchase beautiful artwork from talented artists</p>
-              </section>
-              <section class="gallery">
-                <div class="item1">
-                    <img src="I1.webp" alt="artwork1" width="100"/>
-                </div>
-                <div class="item1">
-                    <img src="I2.jpg" alt="artwork1" width="100"/>
-                </div>
-              </section>
-            </td>
-          </tr>
+            <tr>
+                <td width="5%" valign="top" align="middle">
+                    <a href="home.html"><img src="home.png" height="30"></a>
+                </td>  
+                <td class="separator" width="1" bgcolor="black" width="1"></td>
+                <td width="2%"></td> 
+                <td>
+                    <h3>Home</h3><br>
+                    <section class="hello">
+                        <button><a href="home.html"><b>Foryou</b></a></button>
+                        <button><a href="paint.html"><b>Paintings</b></a></button>
+                        <button><a href="sketch.html"><b>Sketches</b></a></button>
+                        <button><a href="photo.html"><b>Photography</b></a></button>
+                        <button><a href="digital.html"><b>Digital Art</b></a></button>          
+                        <h3>Trending Items</h3>
+                        <p>Discover and purchase beautiful artwork from talented artists</p>
+                    </section>
+                    <section class="gallery">
+                      <table>
+                          <tr>
+                              <td class="item">
+                                  <img src="item1.jpg" alt="artwork1" width="100"/>
+                                  <p>Item Name 1</p>
+                                  <p>Price: -- ETB</p>
+                                  <button onclick="showDetails('item1')">Details</button>
+                              </td>
+                              <td class="gap"></td> 
+                              <td class="item">
+                                  <img src="item2.jpg" alt="artwork2" width="100"/>
+                                  <p>Item Name 2</p>
+                                  <p>Price: -- ETB</p>
+                                  <button onclick="showDetails('item2')">Details</button>
+                              </td>
+                              <td class="gap"></td> 
+                              <td class="item">
+                                  <img src="item3.jpg" alt="artwork3" width="100"/>
+                                  <p>Item Name 3</p>
+                                  <p>Price: -- ETB</p>
+                                  <button onclick="showDetails('item3')">Details</button>
+                              </td>
+                              <td class="gap"></td> 
+                              <td class="item">
+                                  <img src="item4.jpg" alt="artwork4" width="100"/>
+                                  <p>Item Name 4</p>
+                                  <p>Price: -- ETB</p>
+                                  <button onclick="showDetails('item4')">Details</button>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td class="gap" colspan="7"></td> 
+                          </tr>
+                          <tr>
+                              <td class="item">
+                                  <img src="item5.jpg" alt="trending1" width="100"/>
+                                  <p>Item Name 5</p>
+                                  <p>Price: -- ETB</p>
+                                  <button onclick="showDetails('trending1')">Details</button>
+                              </td>
+                              <td class="gap"></td> 
+                              <td class="item">
+                                  <img src="item6.jpg" alt="trending2" width="100"/>
+                                  <p>Item Name 6</p>
+                                  <p>Price: -- ETB</p>
+                                  <button onclick="showDetails('trending2')">Details</button>
+                              </td>
+                              <td class="gap"></td> 
+                              <td class="item">
+                                  <img src="item7.jpg" alt="trending3" width="100"/>
+                                  <p>Item Name 7</p>
+                                  <p>Price: -- ETB</p>
+                                  <button onclick="showDetails('trending3')">Details</button>
+                              </td>
+                          </tr>
+                      </table>
+                  </section>
+                </td>
+            </tr>
         </table>
-      </main>
-            <footer>
-                <p>&copy; 2023 ArtConnect. All rights reserved.</p>
-            </footer>
-        
-    </body>
+    </main>
+    <footer>
+        <p>&copy; 2023 ArtConnect. All rights reserved.</p>
+    </footer>
+</body>
 </html>
