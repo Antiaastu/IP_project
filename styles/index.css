@@ -16,6 +16,11 @@ body {
     background-color: #f04de2;
     z-index: 1000;
   }
+  .navigations li:hover{
+    background-color: #3e51fa;
+    border-radius: 5px;
+    padding: 5px;
+  }
   .main-content {
     padding-top:9% ; /* Adjust as needed */
     position: relative;
