@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>ምስል Market - Contact Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ምስል Market - Sell Now</title>
     <link rel="icon" href="logo.jpg" type="image/jpg"/>
 </head>
 <body>
@@ -27,7 +27,7 @@
                             <a href="about.html">About|</a>
                             <a href="contact.html">Contact|</a>
                         </b>
-                    </td>
+                    </td> 
                     <td align="right">
                         <button><a href="login.html"><b>Sign-In</b></a></button>
                         <button><a href="signup.html"><b>Sign Up</b></a></button>   
@@ -37,33 +37,27 @@
         </table>    
     </header>
     <hr>
+    <a href="home.html"><b>Home</b></a>
     <main>
         <table width="100%">
             <tr>
                 <td width="5%" valign="top" align="middle">
                     <a href="home.html"><img src="home.png" height="30"></a>
                 </td>  
-                <td class="separator" width="1" bgcolor="black"width="1"></td>
+                <td class="separator" width="1" bgcolor="black" width="1"></td>
                 <td width="2%"></td> 
                 <td>
-                    <h3>Contact Us</h3><br>
-                    <section class="hello">
-                        <p>If you have any questions or inquiries, feel free to contact us:</p>
-                        
-                        <p>Email: <a href="groupthree@gmail.com">groupthree@gmail.com.com</a></p>
-                        
-                        <p>Follow us on social media:</p>
-                        <ul>
-                            <li><a href="https://www.facebook.com/artconnect" target="_blank">Facebook</a></li>
-                            <li><a href="https://twitter.com/artconnect" target="_blank">Twitter</a></li>
-                            <li><a href="https://www.instagram.com/artconnect" target="_blank">Instagram</a></li>
-                        </ul>
-
-                        <p>Leave a comment:</p>
-                        <input type="email" placeholder="Enter your email here"><br><br>
-                        <textarea rows="4" cols="50" placeholder="Type your comment here..."></textarea>
-                        <br>
-                        <button type="submit">Submit Comment</button>
+                    <h3>Sell Now</h3><br>
+                    <section class="sell-form">
+                        <form action="#" method="post">
+                            <label for="image">Painting Image:</label>
+                            <input type="file" id="image" name="image" accept="image/*"><br>
+                            <label for="itemName">Item Name:</label>
+                            <input type="text" id="itemName" name="itemName" required><br>
+                            <label for="price">Price (ETB):</label>
+                            <input type="number" id="price" name="price" required><br>
+                            <button type="submit">Post Advertisement</button>
+                        </form>
                     </section>
                 </td>
             </tr>
