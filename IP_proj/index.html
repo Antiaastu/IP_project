@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/ionicons/css/ionicons.min.css">
+    <link rel="icon" href="logo.png" type="image/png" />
+    <title>ምስል Market</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+     <div class="navbar">
+        <div class="panel-all">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h1>ምስል Market</h1>
+        </div>
+        <div class="nav-search">
+            <input placeholder="Search in ምስል Market " class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="nav-cart border">
+            <abbr title="Sell your item"><i class='fas fa-plus' style='font-size:36px'></i></abbr>
+        </div>
+        
+        <div class="nav-signin border">
+            <a href="../Pages/form.html"><abbr title="Login or Signup"><i class='fas fa-user-alt' style='font-size:36px' id="openForm"></i></abbr></a>
+        </div>
+        
+        
+       
+        
+     </div>
+
+     <div class="panel">
+        
+        <div class="panel-options">
+        <p>Home</p>
+        <p>Artists</p>
+        <p>About</p>
+        <p>Contact us</p>
+    </div>
+    <div class="panel-deals">
+        Sell and Buy in ምስል Market
+    </div>
+     </div>
+    </header>
+    
+    <div class="hero-section">
+        
+        </div>
+    </div>
+
+    <div class="categories">
+        <h2 class="h2 section-title"><span>Trending</span> Items</h2>
+        <ul class="filter-btn-list">
+            <li class="filter-btn-item">
+                <button class="filter-btn active" data-filter-btn="all" onclick="filterItems('all')">All Products</button>
+            </li>
+            <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="Painting" onclick="filterItems('Painting')">Painting</button>
+            </li>
+            <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="Sketches" onclick="filterItems('Sketches')">Sketches</button>
+            </li>
+            <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="Photography" onclick="filterItems('Photography')">Photography</button>
+            </li>
+            <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="Digital" onclick="filterItems('Digital')">Digital Art</button>
+            </li>
+            <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="Religious" onclick="filterItems('Religious')">Religious</button>
+            </li>
+        </ul>
+    </div>
+
+
+
+          <div class="purchase-section">
+            <div class="box" data-category="Painting">
+                <div class="box-img" style="background-image: url('item1.jpg');"></div>
+                <div class="box-content">
+                    <h2>Beautiful Painting</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Painting</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        
+            <div class="box" data-category="Photography">
+                <div class="box-img" style="background-image: url('item2.jpg');"></div>
+                <div class="box-content">
+                    <h2>Personal Care</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Photography</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        
+            <div class="box" data-category="Sketches">
+                <div class="box-img" style="background-image: url('item3.jpg');"></div>
+                <div class="box-content">
+                    <h2>Beautiful Painting</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Sketches</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        
+            <div class="box" data-category="Painting">
+                <div class="box-img" style="background-image: url('item4.jpg');"></div>
+                <div class="box-content">
+                    <h2>Beautiful Painting</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Painting</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        
+            <div class="box" data-category="Digital">
+                <div class="box-img" style="background-image: url('item5.jpg');"></div>
+                <div class="box-content">
+                    <h2>Beautiful Painting</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Digital Art</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        
+            <div class="box" data-category="Sketches">
+                <div class="box-img" style="background-image: url('item6.jpg');"></div>
+                <div class="box-content">
+                    <h2>Beautiful Painting</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Sketches</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        
+            <div class="box" data-category="Digital">
+                <div class="box-img" style="background-image: url('item7.jpg');"></div>
+                <div class="box-content">
+                    <h2>Beautiful Painting</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Digital Art</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        
+            <div class="box" data-category="Painting">
+                <div class="box-img" style="background-image: url('item8.jfif');"></div>
+                <div class="box-content">
+                    <h2>Beautiful Painting</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Painting</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        
+            <div class="box" data-category="Sketches">
+                <div class="box-img" style="background-image: url('item9.jfif');"></div>
+                <div class="box-content">
+                    <h2>Beautiful Painting</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Sketches</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        
+            <div class="box" data-category="Photography">
+                <div class="box-img" style="background-image: url('item10.jfif');"></div>
+                <div class="box-content">
+                    <h2>Beautiful Painting</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Photography</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        
+            <div class="box" data-category="Digital">
+                <div class="box-img" style="background-image: url('item11.jfif');"></div>
+                <div class="box-content">
+                    <h2>Beautiful Painting</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Digital Art</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        
+            <div class="box" data-category="Religious">
+                <div class="box-img" style="background-image: url('item12.jfif');"></div>
+                <div class="box-content">
+                    <h2>Beautiful Painting</h2>
+                    <p class="price">1000.00 ETB</p>
+                    <p class="category">Religious</p>
+                    <p><a href="#" class="see-more">See More</a></p>
+                </div>
+            </div>
+        </div>
+        
+
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Contact Us</p>
+                <a href="">Email</a> 
+                <a href="">Telegram</a>
+                <a href="">Tweeter</a>
+                <a href="">Youtube</a>
+            </ul> 
+    
+
+            <ul>
+                <p>About Us</p>
+                <a href="">Our Previous Work</a> 
+                <a href="">Location</a>            
+            </ul>
+
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="">Selller</a> 
+                <a href="">Buyer</a>
+                <a href="">How to?</a>
+            </ul>
+        </div>
+
+        <div class="foot_panel4">
+            <div class="copyright">
+                © 2024 groupthree
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
